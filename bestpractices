@@ -1,28 +1,17 @@
-How to Secure Your WordPress Website From Getting Hacked
-December 11, 2017 By animirror 2 Comments
+30 Tips to Secure your WordPress Website
+WordPress is the most popular CMS in the world. I am going to give you the best suggestions to make your WordPress site secure.
 
-WordPress is the most popular CMS (Content management system) in the world. WordPress is easy to handle and easy to use but securing WordPress website from the hackers is also very important. Most of the people think that WordPress websites are not secure because it is open source but this is not true. If someone is hacking your site then it’s completely your mistake and you should blame yourself. Each and every year Google bans many sites because of the malware and due to safety reasons. It is your responsibility to care about your website. Read this full article if you want to secure your WordPress site from the bad guys.
-
-
-
-WordPress is being monitored by hundred of its developers from time to time for making it more secure. 
-We are going to give you the best suggestions to make your WordPress site secure.
-
-(A) Login Page Security
 1. Change the Login Page URL:
-
 
 Everyone knows the WordPress login URL is wp-admin or wp-admin.php so hackers can easily start brute force attacks on your WordPress website.
 The best solution for this is to change the login URL of your WordPress website. You can use WPS Hide Login plugin to change the login URL.
 
 2. Use Strong Password:
 
-
 Keeping strong password for your website is as much important as much your ATM card PIN number. 
 You must change your passwords on regular basis. Never use any common word in your passwords. Always mix your passwords with Upper case, lower case, special characters, and numbers. You can also use any good password generator site for generating the strong password.
 
 3. Use 2-Factor Authentication
-
 
 Using 2-factor authentication for your website login page is one of the best things that you can do to secure your WordPress site.
 It helps your site from the brute force attacks. Using 2-factor authentication takes some time on your end but believe me, it really helps to secure your website. 
@@ -31,37 +20,30 @@ You can use Google Authenticator for 2-factor authentication (2FA).
 
 4. Change the Login username:
 
-
 Most of the people keep their login username as ADMIN but this in this way you are helping to hackers for the brute force attacks. 
 Always keep the unpredictable usernames and better I will suggest you use Email ID instead of username and it is tough to predict for the hackers. You can use Email Login plugin and it will help you to log in with your email ID.
 
 5. Limit Login Attempts:
 
-
 Hackers try to login to your WordPress site many times by using different combinations of passwords and usernames and limiting the login attempts will help you to secure your WordPress website from them.
 By default, 
 WordPress allows to log in multiple times but it is not good for the safety of your website. You can use Login LockDown to set the limit of login attempts.
 
-(B) Securing WordPress Website Database and Dashboard
 6. Always Keep Back up of Your Site:
-
 
 Keeping back up of your WordPress website is a very smart move that you should make. In this world nothing is safe and keeping our website, data back up is very important in case you fall into the hackers trap. You can use WordPress Backup to Dropbox for keeping the backup of your website in a simple way.
 
 7. Set Strong Password for the Database:
 
-
 Always set a strong password for your database and as I mentioned above, always mix upper case, lower case, special case and numbers in your password. You can use any online password generator also to generate a very strong password.
 
 8. Update Regularly:
-
 
 Time to time WordPress software, Themes and Plugins release their updated versions so you must update everything to be on the safe side. The developers update the WordPress, themes, and plugins to fix the bugs and to secure the software. In most of the cases, if you don’t update your WordPress site on regular basis, 
 hackers may attack our site by exploiting the bugs. 
 Hackers are more active than you and they wait for your one wrong move so they can attack your WordPress website so it is best practice to keep your WordPress site updated.
 
 9. Never Use Premium Themes and Plugins for FREE:
-
 
 I can understand in the starting phase of your blogging career you may not want to invest on premium themes and plugins but using premium themes and plugins for free can put your site in danger because no one is going to give you premium products for free without any benefits. 
 I can also understand you are on a tight budget but something is better than nothing. This is the beauty of WordPress that you can get all the features in free plugins and themes and if you are not getting that features for free then better buy instead of using free themes and plugins.
@@ -72,7 +54,6 @@ You can use VirusTotal to scan the themes and plugins file. You can use Theme Au
 
 10. Use Security Plugins:
 
-
 Using security plugins are very important to your websites as they work like an active army for the security of your WordPress website. There are many free and paid security plugins are available for the WordPress.
 I will suggest using WordFence, Sucuri and Security Ninja to your WordPress site to make it more secure.
 
@@ -82,42 +63,29 @@ It will also affect the speed of your website so better keep them out of your la
 
 12. Logout automatically Idle Users:
 
-
 Sometimes we forget to log out or go to grab a cup of coffee in our office and anyone can misuse this time to change any details of your sites.
 Using Idle User Logout can help to log out the session automatically for the idle users.
 
 13. Use SSL for WordPress Site:
-
 
 Always use SSL certificate on your websites to increase the trust of users and to secure your website. 
 Most of the hosting companies give the free SSL certificates for your website. SSL ensures that the data between your site and server is secure and it helps the save your site from the hackers. Google also loves the sites with SSL certificates and ranks them higher than the non-SSL certificate sites. You can use Let’s Encrypt to get the Free SSL certificate for your website and it will change the web address of your website from HTTP to HTTPS. After getting SSL certificate you can also use Really Simple SSL plugin to make sure that your site always opens in HTTPS mode.
 
 14. Always Keep Track of Dashboard Activity:
 
-
 If you have many users on your WordPress website then you must keep track of the activities happening on your website.
 Keeping track of the activity is a good idea to check if any wrong activities are happening by any user on your website. You can use WP Security Audit Log to keep track of your WordPress site activities.
 
-(C) Securing The Hosting:
 15. Choosing the Right Hosting Company:
 
-
-
 Almost each and every hosting company claims that they have good safe and secure environment for WordPress sites but we have to choose the hosting service wisely. 
-I will suggest you choose some good hosting services like Bluehost and A2 Hosting. Before buying any hosting for your WordPress website you must check some details like:
+I will suggest you choose some good hosting services like Bluehost and Site Ground. Before buying any hosting for your WordPress website you must check some details like:
 
-Server Uptime
-SSD Disk Space
-Bandwidth
-MySQL Database
 Daily Backups
 Free cPanel Migration
 PHP Versions
 Git version
 Operating System
-Customer Support
-MoneyBack Policy
-
 
 16. Secure the wp-config.php File:
 Wp-config.php holds some very crucial information about your site and protecting this file is too much important for the safety of your WordPress site. 
@@ -126,6 +94,65 @@ To secure this file you just have to move this file to a higher level than the r
 
 17. Lock File Editing:
 
-
 If you have a multi-user website and if any of the users have admin level access to your website then they can easily modify any files of your website including themes and plugins. 
-If you disallow the file editing then no one can edit any file on your website and your website can be saved from the harm. At the end of the wp-config.php file add:
+If you disallow the file editing then no one can edit any file on your website and your website can be saved from the harm. At the end of the wp-config.php file add:define(‘DISALLOW_FILE_EDIT’, true);
+
+18. Use Captcha
+
+There are several variants of Captcha out there, but the idea is the same between plugins and methods: force any site visitor who tries to fill out a form to first prove they’re human. While it was once a troublesome and inconvenient option, Captcha has improved greatly in recent years. Plus it protects all kinds of forms on your site, so it does double duty by helping to stop hackers and prevent spam.
+
+20. Use Cloudflare
+
+This is more of an advanced option, and certainly not one that everyone needs, but CloudFlare is an external service that acts as a sort of “filter” between your servers and your users. CloudFlare offers many security and performance options, several of which are available on their free plan. While most sites don’t need to worry about DDOS attacks, CloudFlare is excellent at preventing those, since your server’s IP address will be effectively masked. CloudFlare also offers a variety of other security options, including blocking IP addresses or specific regions.
+
+21. Use Email login
+
+By default, you have to input your username to log in. Using an email ID instead of a username is a more secure approach. The reasons are quite obvious. Usernames are easy to predict, while email IDs are not. Also, any WordPress user account is always created with a unique email address, making it a valid identifier for logging in.
+
+The WP Email Login plugin works out of the box for this purpose. It starts working right after the activation and it requires no configuration at all.
+
+To test it, just log out of your website and then log back in, but this time use the email address that you created the account with.
+
+22. Change the Admin Username
+
+During WordPress installation, you should never choose “admin” as the username for your main administrator account. Such an easy-to-guess username is approachable for hackers. All they need to know is the password, and your entire site gets into the wrong hands.
+
+I can’t tell you how many times I have scrolled through my website logs, and found login attempts with username “admin”.
+
+The Sucuri Security plugin can stop such attempts cleverly by immediately banning any IP address that attempts to log in with that username.
+
+23. Minimalist Plugin Usagge
+
+I know I already mentioned in the list above that you should delete plugins and themes you’re not using. But it’s worth noting that you should make an effort to limit the total number of plugins you install in the first place.
+
+To keep your site secure, you need to be scrupulous in the criteria you use to select plugins. This isn’t just about security, either. It’s about site speed and performance, too. Loading your site up with too many plugins can slow it down dramatically
+
+24.Hide Author Usernames
+
+If WordPress defaults are left intact, it’s really easy to find out each author’s username for your site. And since more often than not the main author of a site is also the administrator, it’s also easy to find out the admin’s username. Which isn’t good. Anytime you’re giving away info to hackers, you run the risk of seeing your site compromised.
+
+25. Add Security Questions to WordPress Login Screen
+
+Adding a security question to your WordPress login screen makes it even harder for someone to get unauthorized access.
+
+You can add security questions by installing the WP Security Questions plugin. Upon activation, you need to visit Settings » Security Questions page to configure the plugin settings.
+
+26. Disable Directory Indexing and Browsing
+
+Directory browsing can be used by hackers to find out if you have any files with known vulnerabilities, so they can take advantage of these files to gain access. Directory browsing can also be used by other people to look into your files, copy images, find out your directory structure, and other information. This is why it is highly recommended that you turn off directory indexing and browsing.
+
+27. Change WordPress Database Prefix
+
+By default, WordPress uses wp_ as the prefix for all tables in your WordPress database. If your WordPress site is using the default database prefix, then it makes it easier for hackers to guess what your table name is. This is why we recommend changing it. You can change it in the Advanced Options when Installing a Wordpress instance.
+
+28. Remove your WordPress version number
+
+Your current WordPress version number can be found very easily. It’s basically sitting right there in your site’s source view. Here’s the thing, if the hackers know which version of WordPress you use, it’s easier for them to tailor-build the perfect attack.
+
+29. Password Protect WordPress Admin and Login Page
+
+Normally, hackers can request your wp-admin folder and login page without any restriction. This allows hackers to try their hacking tricks or run DDoS attacks. You can add additional password protection on a server side which will effectively block those requests.
+
+30. Eliminate PHP Error Reporting
+
+Beefing up your site’s backend security has a lot to do with closing the holes or weak spots. Now, if a plugin or theme doesn’t work correctly, it might create an error message. This is definitely helpful when troubleshooting, but here’s the problem: these error messages often include your server path.
